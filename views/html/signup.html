@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>SignUp Page</title>
+    <link rel="stylesheet" href="../css/login.css" type="text/css">
+</head>
+
+<body>
+    <div class='wrapper'>
+
+        <div class='header'>
+            <img src="../resource/hackerrank_logo.svg" id='logo-header' height='auto' width='500'>
+            <h2 id='intro'>For developers</h2>
+        </div>
+        <div class='login-page'>
+            <div class='into-login-res-page'>
+                <button id='Sign-up'>SIGN UP</button>
+                <button id='lo-gin'>LOGIN</button>
+            </div>
+            <div class='login-form'>
+                <div class='post-info'>
+                    <div class='user-field'>
+                        <img id='user-icon' src='../resource/user-solid.svg' width='24' height='24'>
+                        <input id='typing-name' type='text' placeholder="Your username">
+                        <span id="error-name"> </span>
+                    </div>
+                    <div class='mail-field'>
+                        <img id='user-icon' src='../resource/email-regular.svg' width='24' height='24'>
+                        <input id='typing-mail' type='text' placeholder="Your email">
+                        <span id="error-mail"> </span>
+                    </div>
+
+                    <div class='pw-field'>
+                        <img id='lock-icon' src='../resource/lock-solid.svg' width='24' width='24'>
+                        <input id='typing-pw' type="password" placeholder="Password">
+                        <span id="error-pw"> </span>
+                    </div>
+                    
+                    <div class='btn'>
+                        <button id="signup" type="submit">Create your account</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<script type ='module' src='../js/signup.js' type='text/javascript'></script>
+</body>
+
+</html>
