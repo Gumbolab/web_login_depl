@@ -4,7 +4,8 @@
   "description": "login server &&  sql database",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server-login/app-server.js"
   },
   "author": "ming xue",
   "license": "MIT",
