@@ -1,1 +1,1 @@
-web: node server-login/app-server.js  
+web: npm start
